@@ -1,3 +1,6 @@
+%%%%%%%  STARTING HERE, Document Formatting Settings
+
+
 \documentclass[a4,10pt]{article}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -42,3 +45,36 @@ ItalicFont=SourceSansPro-RegularIt.otf
 }{}{0em}{}[\vspace{-10pt} \hrulefill \vspace{-6pt}]
 \newcommand{\subtext}[1]{
 #1\par\vspace{-0.2cm}}
+\setlist[itemize]{align=parleft,left=0pt..1em}
+\newenvironment{zitemize}{
+\begin{itemize}\itemsep0pt \parskip0pt \parsep1pt}
+{\end{itemize}\vspace{-0.5cm}}
+\newcommand{\hskills}[1]{
+\textbf{\bfseries #1} }
+\titleformat{\subsection}{\vspace{-0.1cm} 
+\bfseries \fontsize{11pt}{2cm}}{}{0em}{}[\vspace{-0.2cm}]
+
+%%%%%%%  END OF "Document Formatting Settings" SECTION
+
+
+\begin{document}
+
+\begin{center}
+    \begin{minipage}[b]{0.24\textwidth}
+            \ (+91)-9156011787 \\
+            \normalsize \href{mailto:as.anandsumit@gmail.com}{as.anandsumit@gmail.com} 
+    \end{minipage}% 
+    \begin{minipage}[b]{0.5\textwidth}
+            \centering
+            {\Huge \underline {SUMIT ANAND}} \\ %
+            \vspace{0.1cm}
+            {\color{UI_blue} \Large{DevOps and Site Reliability Engineer}} \\
+    \end{minipage}% 
+    \begin{minipage}[b]{0.24\textwidth}
+            \flushright \normalsize  %Willing to Relocate
+            {\href{https://www.linkedin.com/in/asanandsumit/}{linkedin/asanandsumit} } \\
+            \href{https://github.com/anandsumit2000}{GitHub/anandsumit2000}
+    \end{minipage}   
+
+    {\color{UI_blue} \hrulefill}
+\end{center}
